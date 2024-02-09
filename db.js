@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const connec = () => {
   mongoose
     .connect(process.env.DB_URI, {
-      dbName: "lenslihght_tr",
+      dbName: "",
     })
     .then(() => {
       console.log("Successfully");
